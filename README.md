@@ -39,8 +39,6 @@ Greeting::sayMessage($input);
 */
 ```
 
-
-
 ## Installation
 
 You can install the package via composer:
@@ -49,12 +47,15 @@ You can install the package via composer:
 composer require ahmedhelalahmed/laravel-greeting
 ```
 
+Then publish the configurations:
+
+```bash
+php artisan vendor:publish --provider="AhmedHelalAhmed\LaravelGreeting\LaravelGreetingServiceProvider"
+```
 
 ## Contributing
 
 Thank you for considering contributing to ahmedhelalahmed/laravel-greeting .
-
-
 
 ### Security
 
@@ -67,4 +68,3 @@ If you discover a security vulnerability within ahmedhelalahmed/laravel-greeting
 ## License
 
 ahmedhelalahmed/laravel-greeting is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
