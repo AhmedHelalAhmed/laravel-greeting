@@ -1,0 +1,25 @@
+{
+  "name": "ahmedhelalahmed/laravel-greeting",
+  "description": "die with greeting message in laravel",
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ahmed Helal Ahmed",
+      "email": "ahmed.helal.online@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "AhmedHelalAhmed\\LaravelGreeting\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AhmedHelalAhmed\\LaravelGreeting\\LaravelGreetingServiceProvider"
+      ]
+    }
+  }
+}
