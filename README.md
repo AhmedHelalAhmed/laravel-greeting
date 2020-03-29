@@ -106,7 +106,7 @@ Thank you for considering contributing to ahmedhelalahmed/laravel-greeting .
 
 ### Security
 
-If you discover a security vulnerability within ahmedhelalahmed/laravel-greeting , please send an e-mail to Taylor Otwell via ahmed.helal.online@gmail.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within ahmedhelalahmed/laravel-greeting , please send an e-mail to Ahmed Helal via ahmed.helal.online@gmail.com. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 
