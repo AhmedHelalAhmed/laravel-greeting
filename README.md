@@ -1,6 +1,7 @@
 # Laravel Greeting
 
-This package allows die and dump in one input. If there is no input, it will die and dump a default greeting message which is "Hello world". You can change the default message by setting HELLO_WORLD_MESSAGE in .env file.
+This package allows die and dump in one input. If there is no input, it will die and dump a default greeting message which is "Hello world".
+You can change the default message by setting HELLO_WORLD_MESSAGE in .env file also you can log messages to log and clear log file.
 
 ## Basic usage
 
