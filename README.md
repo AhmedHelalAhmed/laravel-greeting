@@ -9,21 +9,19 @@ This package allows die and dump in one input. If there is no input, it will die
 ```php
 use AhmedHelalAhmed\LaravelGreeting\Greeting;
 
-Greeting::sayMessage();
 // It will dump hello world as no input given and default message not changed
+Greeting::sayMessage();
 ```
-
 
 ### Dump and die simple message:
 
 ```php
 use AhmedHelalAhmed\LaravelGreeting\Greeting;
 
-Greeting::sayMessage('hello world',false);
 // It will dump hello world and stop execution as continue set with false
+Greeting::sayMessage('hello world',false);
 
 ```
-
 
 ### Stop and start sending messages:
 
@@ -46,36 +44,49 @@ Greeting::sayMessage([
         }
     ]
 */
-Greeting::stop();// stop sending messages
 
-Greeting::sayMessage();// this has no effect at all
+// stop sending messages
+Greeting::stop();
 
-Greeting::sayMessage("Welcome",false);// this has no effect as Greeting messages stopped
+// this has no effect at all
+Greeting::sayMessage();
 
-Greeting::start();// continue sending messages
+// this has no effect as Greeting messages stopped
+Greeting::sayMessage("Welcome",false);
 
-Greeting::sayMessage("Hello world",false);// this will dump the message and die
+// continue sending messages
+Greeting::start();
+
+// this will dump the message and die
+Greeting::sayMessage("Hello world",false);
 
 ```
 
-### sending messages and log into storage file:
+### Sending messages and log into storage file:
 
 ```php
 use AhmedHelalAhmed\LaravelGreeting\Greeting;
 
+// this will dump welcome message and log it to storage file
+Greeting::sayAndLog('welcome');
 
-Greeting::sayAndLog('welcome');// this will dump welcome message and log it to storage file
-
-Greeting::sayAndLog('welcome',false);// this will log welcome to storage file and dump welcome message then stop execution
-
+// this will log welcome to storage file and dump welcome message then stop execution
+Greeting::sayAndLog('welcome',false);
 
 ```
-### clear log file:
+
+### Clear log file:
 
 ```php
+
 use AhmedHelalAhmed\LaravelGreeting\Greeting;
 
-Greeting::resetLog();// this will clear the content of log file
+// this will clear the content of log file
+Greeting::resetLog();
+
+// you can install
+// https://github.com/rap2hpoutre/laravel-log-viewer
+// to view logs
 
 ```
 
