@@ -21,7 +21,6 @@ use AhmedHelalAhmed\LaravelGreeting\Greeting;
 
 // It will dump hello world and stop execution as continue set with false
 Greeting::sayMessage('hello world',false);
-
 ```
 
 ### Stop and start sending messages:
@@ -60,7 +59,6 @@ Greeting::start();
 
 // this will dump the message and die
 Greeting::sayMessage("Hello world",false);
-
 ```
 
 ### Sending messages and log into storage file:
@@ -73,13 +71,11 @@ Greeting::sayAndLog('welcome');
 
 // this will log welcome to storage file and dump welcome message then stop execution
 Greeting::sayAndLog('welcome',false);
-
 ```
 
 ### Clear log file:
 
 ```php
-
 use AhmedHelalAhmed\LaravelGreeting\Greeting;
 
 // this will clear the content of log file
@@ -88,7 +84,6 @@ Greeting::resetLog();
 // you can install
 // https://github.com/rap2hpoutre/laravel-log-viewer
 // to view logs
-
 ```
 
 ## Installation
