@@ -91,7 +91,7 @@ Greeting::resetLog();
 You can install the package via composer:
 
 ```bash
-composer require ahmedhelalahmed/laravel-greeting
+composer require --dev ahmedhelalahmed/laravel-greeting
 ```
 
 Then publish the configurations:
